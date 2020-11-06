@@ -1,0 +1,193 @@
+/* Add Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('assets/fonts/Metropolis/Metropolis-Regular.otf');
+  src: url('assets/fonts/Metropolis/Metropolis-Regular.otf') format('ttf'),
+  url('assets/fonts/Metropolis/Metropolis-Regular.otf') format('truetype');
+}
+
+.metropolis {
+  font-family: 'Metropolis';
+}
+
+@font-face {
+  font-family: 'Lobster Two';
+  src: url('assets/fonts/Lobster_Two/LobsterTwo-Regular.ttf');
+  src: url('assets/fonts/Lobster_Two/LobsterTwo-Regular.ttf') format('ttf'),
+  url('assets/fonts/Lobster_Two/LobsterTwo-Regular.ttf') format('truetype');
+}
+
+.lobster-two {
+  font-family: 'Lobster Two';
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('assets/fonts/Quicksand/Quicksand-Regular.ttf');
+  src: url('assets/fonts/Quicksand/Quicksand-Regular.ttf') format('ttf'),
+  url('assets/fonts/Quicksand/Quicksand-Regular.ttf') format('truetype');
+}
+
+.quicksand {
+  font-family: 'Quicksand';
+}
+
+@font-face {
+  font-family: 'Quicksand Semi Bold';
+  src: url('assets/fonts/Quicksand/Quicksand-SemiBold.ttf');
+  src: url('assets/fonts/Quicksand/Quicksand-SemiBold.ttf') format('ttf'),
+  url('assets/fonts/Quicksand/Quicksand-SemiBold.ttf') format('truetype');
+}
+
+.quicksand-semi-bold {
+  font-family: 'Quicksand Semi Bold';
+}
+
+/* My CSS */
+
+/* Nav */
+
+nav {
+  background-color: rgba(33, 37, 41, .8);
+}
+
+span.my-name {
+  font-family: 'Lobster Two';
+  font-size: 25px;
+}
+
+/* Nav - end */
+
+/* Jumbotron */
+
+.jumbotron {
+  height: 663px;
+  background-color: rgb(150, 150, 150);
+  background-image: url(assets/images/bali.jpg);
+  background-size: cover;
+  background-position-y: -200px;
+  background-attachment: fixed;
+  -webkit-background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+
+.jumbotron img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  margin-top: 7%;
+}
+
+.jumbotron h1 {
+  /* font-family: 'Metropolis'; */
+  margin-bottom: 10px;
+  color: white;
+}
+
+.jumbotron hr {
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  border: 1px solid white;
+}
+
+.jumbotron p {
+  color: white;
+}
+/* Jumbotron - end */
+
+/* About */
+
+.about {
+  min-height: 400px;
+}
+
+.about h2 {
+  text-align: center;
+  /* font-family: sans-serif; */
+}
+
+.about hr {
+  width: 250px;
+  background-color: black;
+}
+
+/* About - end */
+
+/* Portfolio */
+
+.portfolio {
+  /* min-height: 150px; */
+  background-image: url(assets/images/bali2.jpg);
+  padding: 15px;
+  background-color: rgb(199, 199, 199);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+
+article section.container {
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.portfolio h2 {
+  text-align: center;
+}
+
+.portfolio hr {
+  width: 250px;
+  background-color: black;
+}
+
+.portfolio .card {
+  height: 500px;
+  border-radius: 20px;
+}
+
+.portfolio .card img {
+  border-radius: 20px;
+}
+
+/* Portfolio - end */
+
+/* Footer */
+
+.footer a.my-name {
+  font-family: 'Lobster Two';
+  font-size: 25px;
+}
+
+.footer img {
+  height: 30px;
+  opacity: .6;
+}
+
+.footer img:hover {
+  opacity: .8;
+}
+
+.footer img:active {
+  opacity: 1;
+}
+
+/* Footer - end */
+
+/* Responsive CSS */
+
+@media (max-width: 575.98px) {
+  .jumbotron img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+    margin-top: 25%;
+  }
+}
+
+/* Responsive CSS - end */
