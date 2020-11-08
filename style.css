@@ -188,9 +188,9 @@ article section.container {
 
 /* Responsive CSS */
 
-@media (max-width: 575.98px) {
+@media (max-width: 375px) {
   .jumbotron {
-    background-position-y: 30px;
+    background-position-y: 0;
   }
 
   .jumbotron h1 {
