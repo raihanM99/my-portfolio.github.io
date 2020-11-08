@@ -19,7 +19,7 @@ $('.page-scroll').on('click', function(e){
 
 $(window).scroll(function() {
   const windowScroll = $(this).scrollTop();
-  console.log(windowScroll);
+  // console.log(windowScroll);
 
   // nav
 
