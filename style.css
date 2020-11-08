@@ -190,7 +190,7 @@ article section.container {
 
 @media (max-width: 575.98px) {
   .jumbotron {
-    background-position-y: 0;
+    background-position-y: 30px;
   }
 
   .jumbotron h1 {
