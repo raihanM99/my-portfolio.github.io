@@ -74,6 +74,7 @@ span.my-name {
   height: 663px;
   background-color: rgb(150, 150, 150);
   background-image: url(assets/images/bali.jpg);
+  -webkit-background-image: url(assets/images/bali.jpg);
   background-size: cover;
   background-position-y: -100px;
   background-attachment: fixed;
