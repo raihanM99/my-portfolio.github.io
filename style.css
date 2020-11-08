@@ -50,6 +50,10 @@
 
 /* My CSS */
 
+html {
+  /* scroll-behavior: smooth; */
+}
+
 /* Nav */
 
 nav {
