@@ -57,7 +57,8 @@ html {
 /* Nav */
 
 nav {
-  background-color: rgba(33, 37, 41, .8);
+  background-color: rgb(33, 37, 41);
+  transition: .5s;
 }
 
 span.my-name {
@@ -77,6 +78,7 @@ span.my-name {
   background-position-y: -100px;
   background-attachment: fixed;
   background-blend-mode: multiply;
+  margin: 0;
 }
 
 .jumbotron img {
@@ -97,6 +99,7 @@ span.my-name {
   background-color: rgb(255, 255, 255);
   margin-bottom: 20px;
   border: 1px solid white;
+  /* opacity: 1; */
 }
 
 .jumbotron p {
